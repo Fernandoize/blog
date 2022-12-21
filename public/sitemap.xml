@@ -2,8 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fernandoize.github.io/tags/</loc>
+    <loc>https://fernandoize.github.io/post/distributed-lock/</loc>
+    <lastmod>2022-12-21T15:11:08+08:00</lastmod>
+  </url><url>
+    <loc>https://fernandoize.github.io/post/</loc>
+    <lastmod>2022-12-21T15:11:08+08:00</lastmod>
   </url><url>
     <loc>https://fernandoize.github.io/</loc>
+    <lastmod>2022-12-21T15:11:08+08:00</lastmod>
+  </url><url>
+    <loc>https://fernandoize.github.io/tags/</loc>
   </url>
 </urlset>
