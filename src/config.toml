@@ -70,7 +70,6 @@ disqusShortname = ""
     url = "/archives/"
     weight = 3
 
-# Privacy configurations: https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
   [privacy.disqus]
     disable = false
