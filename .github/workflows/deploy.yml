@@ -13,7 +13,7 @@ jobs:
                   hugo-version: "latest"
 
             - name: Build Web
-              run: hugo
+              run:  echo `ls ./`
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
@@ -21,5 +21,5 @@ jobs:
                   PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
                   EXTERNAL_REPOSITORY: Fernandoize/Fernandoize.github.io
                   PUBLISH_BRANCH: main
-                  PUBLISH_DIR: ./public
+                  PUBLISH_DIR: ./blog/public
                   commit_message: ${{ github.event.head_commit.message }}
