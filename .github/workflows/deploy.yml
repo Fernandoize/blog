@@ -21,5 +21,5 @@ jobs:
                   PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
                   EXTERNAL_REPOSITORY: Fernandoize/Fernandoize.github.io
                   PUBLISH_BRANCH: main
-                  PUBLISH_DIR: ./src/public
+                  PUBLISH_DIR: ./public
                   commit_message: ${{ github.event.head_commit.message }}
