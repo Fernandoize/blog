@@ -7,12 +7,6 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - name: Checkout
-              uses: actions/checkout@v2
-              with:
-                  submodules: true
-                  fetch-depth: 0
-
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
@@ -27,5 +21,5 @@ jobs:
                   PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
                   EXTERNAL_REPOSITORY: Fernandoize/Fernandoize.github.io
                   PUBLISH_BRANCH: main
-                  PUBLISH_DIR: ./public
+                  PUBLISH_DIR: ./src/public
                   commit_message: ${{ github.event.head_commit.message }}
